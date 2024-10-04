@@ -5,8 +5,8 @@ import socket
 import random
 import json
 
-option_a = os.getenv("OPTION_A", "Vim")
-option_b = os.getenv("OPTION_B", "NeoVim")
+option_a = os.getenv("OPTION_A", "Visual Studio")
+option_b = os.getenv("OPTION_B", "JetBrains Rider")
 hostname = socket.gethostname()
 version = "v1"
 
